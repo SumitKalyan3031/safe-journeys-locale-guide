@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const EmergencyPhrases = () => {
-  const languages = ["Spanish", "French", "Italian", "German", "Japanese"];
+  const languages = ["Hindi", "Punjabi","Spanish", "French", "Italian", "German", "Japanese"];
   
   const phrases = [
     {
@@ -15,7 +15,9 @@ const EmergencyPhrases = () => {
         French: "Au secours ! Urgence !",
         Italian: "Aiuto! Emergenza!",
         German: "Hilfe! Notfall!",
-        Japanese: "Tasukete! Kinkyū jitai!"
+        Japanese: "Tasukete! Kinkyū jitai!",
+        Hindi: "मेरी मदद करो!",
+        Punjabi: "ਮੇਰੀ ਮਦਦ ਕਰੋ!"
       }
     },
     {
@@ -25,7 +27,9 @@ const EmergencyPhrases = () => {
         French: "J'ai besoin d'un médecin",
         Italian: "Ho bisogno di un medico",
         German: "Ich brauche einen Arzt",
-        Japanese: "Isha ga hitsuyō desu"
+        Japanese: "Isha ga hitsuyō desu",
+        Hindi: "मुझे डॉक्टर की जरूरत है!",
+        Punjabi: "ਮੈਨੂੰ ਡਾਕਟਰ ਦੀ ਲੋੜ ਹੈ।"
       }
     },
     {
@@ -35,7 +39,9 @@ const EmergencyPhrases = () => {
         French: "Appelez une ambulance",
         Italian: "Chiamate un'ambulanza",
         German: "Rufen Sie einen Krankenwagen",
-        Japanese: "Kyūkyūsha o yonde kudasai"
+        Japanese: "Kyūkyūsha o yonde kudasai",
+        Hindi: "ऐम्बुलेंस बुलाएं!",
+        Punjabi: "ਐੰਬੁਲੇਂਸ ਨੂੰ ਬੁਲਾਓ!"
       }
     },
     {
@@ -45,7 +51,9 @@ const EmergencyPhrases = () => {
         French: "Je suis perdu(e)",
         Italian: "Mi sono perso/a",
         German: "Ich habe mich verirrt",
-        Japanese: "Michi ni mayotte imasu"
+        Japanese: "Michi ni mayotte imasu",
+        Hindi: "मैं नहीं जानता कि मैं कहां हूं!",
+        Punjabi: "ਮੈਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਮੈਂ ਕਿੱਥੇ ਹਾਂ।"
       }
     },
     {
@@ -55,7 +63,9 @@ const EmergencyPhrases = () => {
         French: "J'ai besoin d'eau",
         Italian: "Ho bisogno di acqua",
         German: "Ich brauche Wasser",
-        Japanese: "Mizu ga hitsuyō desu"
+        Japanese: "Mizu ga hitsuyō desu",
+        Hindi: "मुझे प्यास लगी है!",
+        Punjabi: "ਮੈਨੂੰ ਪਿਆਸ ਲਗੀ ਹੈ!"
       }
     }
   ];

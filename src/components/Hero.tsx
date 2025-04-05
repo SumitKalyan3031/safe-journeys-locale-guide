@@ -14,6 +14,9 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-700 mb-8">
             Your comprehensive guide to staying safe while exploring beautiful mountains and coasts around the world.
           </p>
+          <p className="text-lg md:text-xl text-gray-700 mb-8">
+          -Sumit Kalyan
+          </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button className="bg-mountain hover:bg-mountain-dark text-white" size="lg">
               <a href="#mountain">Mountain Safety</a>
